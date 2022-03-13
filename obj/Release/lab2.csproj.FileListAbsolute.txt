@@ -1,0 +1,11 @@
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\bin\Release\lab2.exe.config
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\bin\Release\lab2.exe
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\bin\Release\lab2.pdb
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.csproj.AssemblyReference.cache
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.FormCode.resources
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.Properties.Resources.resources
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.csproj.GenerateResource.cache
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.exe
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\4 семестр\РПС\lab2\lab2\obj\Release\lab2.pdb
