@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Cryptography;
-
+﻿using System.Text;
 
 namespace lab2 {
     public interface ICipher {
@@ -21,9 +15,6 @@ namespace lab2 {
             string cipher = "";
 
             for (int i = 0; i < str.Length; i++) {
-                // Избегаем места для шифрования/*применение формулы шифрования(ax +b) mod m
-                /* { здесь x -msg[i], а m -26}
-                 и добавлено «A» к принесите его в диапазоне алфавита ASCII[65 - 90 | AZ] */
                 if (str[i] != ' ') {
                     if (str[i] >= 'A' && str[i] <= 'Z')
                         cipher += (char)((((a * (str[i] - 'A')) + b) % 26) + 'A');
@@ -58,7 +49,6 @@ namespace lab2 {
             return msg;
         }
         public void DecodeEn(char cipher, int a, int b) {
-            //   string msg = "";
             int a_inv = 0;
             int flag;
             // Находим ^ -1 (мультипликативный обратный
@@ -71,24 +61,11 @@ namespace lab2 {
                     a_inv = i;
                 }
             }
-
-
-            /*Применение формулы дешифрования a ^ -1(x - b) mod m
-
-            { здесь x -шифр[i], а m -26}
-            и добавлено 'A'чтобы привести его в диапазон алфавита ASCII[65 - 90 | AZ] */
-
-            //if (cipher != ' ') {
             if (cipher >= 'A' && cipher <= 'Z')
                 msg += (char)((a_inv * (cipher + 'A' - b) % 26) + 'A');
             else if (cipher >= 'a' && cipher <= 'z') {
                 msg += ((char)((a_inv * (char.Parse(cipher.ToString().ToUpper()) + 'A' - b) % 26) + 'A')).ToString().ToLower();
             }
-            //}
-            /*else {
-                msg += cipher;
-            }
-*/
 
         }
         public void DecodeRu(char cipher, int a, int b) {
@@ -101,20 +78,11 @@ namespace lab2 {
                     a_inv = i;
                 }
             }
-            //for (int i = 0; i < cipher.Length; i++) {
-            //if (cipher != ' ') {
-
             if (cipher >= 'А' && cipher <= 'Я')
                 msg += ((char)((a_inv * (cipher + 'А' - b) % 32) + 'А')).ToString().ToUpper();
-            //msg += (char)(((a_inv * ((cipher + 'А' - b)) % 33)) + 'А');
             else if (cipher >= 'а' && cipher <= 'я')
                 msg += ((char)((a_inv * (char.Parse(cipher.ToString().ToUpper()) + 'а' - b) % 32) + 'а')).ToString().ToLower();
-
-
         }
-
-
-
     }
 
     public class Rot13 : ICipher {

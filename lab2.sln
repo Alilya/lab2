@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2", "lab2.csproj", "{C8209856-6E55-4D0C-93B2-4619DD0934BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestICipher", "..\TestICipher\TestICipher.csproj", "{BA864C3C-25AC-43CA-AA89-844E1DB65163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C8209856-6E55-4D0C-93B2-4619DD0934BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8209856-6E55-4D0C-93B2-4619DD0934BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8209856-6E55-4D0C-93B2-4619DD0934BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA864C3C-25AC-43CA-AA89-844E1DB65163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA864C3C-25AC-43CA-AA89-844E1DB65163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA864C3C-25AC-43CA-AA89-844E1DB65163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA864C3C-25AC-43CA-AA89-844E1DB65163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
